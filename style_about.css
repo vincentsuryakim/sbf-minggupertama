@@ -39,45 +39,34 @@ a {
 }
 
 .main {
-    /* background-color: green; */
     display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    padding-top: 5em;
+    /* background-color: yellow; */
+    height: 400px;
+    margin-top: 3em;
 }
 
 .main-left {
-    padding-top: 5em;
-    padding-left: 7em;
-    /* background-color: yellow; */
-    width: 50%;
-}
-
-.main-left-title {
-    font-size: 3.5em;
-    font-weight: bolder;
-}
-
-.main-left-text {
-    padding-top: 15px;
     display: flex;
-    font-size: 1.1em;
-    /* width: 35em; */
-    flex-wrap: wrap;
-    font-weight: lighter;
+    /* background-color: lawngreen; */
+    align-items: center;
+    justify-content: center;
+    font-size: 2.5em;
+    font-weight: bolder;
+    width: 50%;
+    text-align: left;
+    padding-left: 2em;
 }
 
 .main-right {
     display: flex;
     align-items: center;
     justify-content: center;
-    /* background-color: indigo; */
     width: 50%;
+    /* background-color: indigo; */
 }
 
 .main-right img {
-    width: 500px;
-    border-radius: 50%;
+    width: 25%;
 }
 
 .footer {

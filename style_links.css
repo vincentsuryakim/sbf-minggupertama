@@ -38,46 +38,44 @@ a {
     /* text-align: right; */
 }
 
-.main {
-    /* background-color: green; */
+.links {
+    margin-top: 13em;
+    width: 100%;
     display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    padding-top: 5em;
-}
-
-.main-left {
-    padding-top: 5em;
-    padding-left: 7em;
     /* background-color: yellow; */
-    width: 50%;
-}
-
-.main-left-title {
-    font-size: 3.5em;
-    font-weight: bolder;
-}
-
-.main-left-text {
-    padding-top: 15px;
-    display: flex;
-    font-size: 1.1em;
-    /* width: 35em; */
-    flex-wrap: wrap;
-    font-weight: lighter;
-}
-
-.main-right {
-    display: flex;
     align-items: center;
     justify-content: center;
-    /* background-color: indigo; */
-    width: 50%;
 }
 
-.main-right img {
-    width: 500px;
-    border-radius: 50%;
+.links img {
+    height: 120px;
+    margin-left: 1.5em;
+    margin-right: 1.5em;
+    /* background-color: yellow; */
+}
+
+.links-instagram {
+    /* background-color: red; */
+    padding: 20px;
+    margin-left: 1em;
+    margin-right: 1em;
+    text-align: center;
+    border: black;
+    border-radius: 10px;
+    border-style: solid;
+    border-width: 1px;
+}
+
+.links-twitter {
+    /* background-color: navy; */
+    padding: 20px;
+    margin-left: 1em;
+    margin-right: 1em;
+    text-align: center;
+    border: black;
+    border-radius: 10px;
+    border-style: solid;
+    border-width: 1px;
 }
 
 .footer {
