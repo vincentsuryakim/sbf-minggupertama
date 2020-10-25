@@ -1,0 +1,42 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+div {
+    font-size: larger;
+    text-align: center;
+}
+
+h2 {
+    color: red;
+}
+
+img {
+    width: 500px;
+}
+
+.row {
+    background-color: aqua;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:10px;
+    padding-right: 30px;
+    margin-bottom: 50px;
+    /* flex-direction: row; */
+    font-size: 2vw;
+}
+
+.main img {
+    border-radius: 50%;
+    height: 500px;
+}
+
+.images {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    background-color: green;
+    margin-top: 50px;
+}
